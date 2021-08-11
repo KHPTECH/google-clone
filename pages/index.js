@@ -8,6 +8,7 @@ import { Input } from "postcss";
 import Footer from "../components/Footer";
 import { useRef } from "react";
 import { useRouter } from "next/dist/client/router";
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 
 export default function Home() {
@@ -44,8 +45,9 @@ export default function Home() {
           <p className="link"> Gmail</p>
           <p className="link">Images</p>
           <ViewGridIcon className="h-10 w-10 p-2 text-gray-700 rounded-full hover:bg-gray-100 cursor-pointer" />
-
-          <Avatar url="https://i.stack.imgur.com/34AD2.jpg" />
+          
+          {/* <Avatar  /> */}
+          <AccountCircleIcon className="h-10 w-10  text-blue-600 rounded-full cursor-pointer transition duration-150 transform hover:scale-125 "/>
         </div>
       </header>
       {/* body */}
@@ -65,7 +67,7 @@ export default function Home() {
 
         <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4">
           <button className="btn" onClick={search} >Google Search</button>
-          <button className="btn" onClick={search} >I'm Feeling Lucky</button>
+          <button className="btn" onClick={search} >I&apos;m Feeling Lucky</button>
         </div>
       </form>
 

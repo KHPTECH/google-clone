@@ -4,6 +4,6 @@ module.exports = {
   }
 module.exports = {
   images: {
-    domains: ["www.google.co.in"],
+    domains: ["www.google.co.in","i.stack.imgur.com"],
   },
 };

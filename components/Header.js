@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { XIcon , MicrophoneIcon, SearchIcon} from "@heroicons/react/solid";
 import Avatar from "../components/Avatar";
 import HeaderOptions from "./HeaderOptions";
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 function Header() {
     const router=useRouter();
@@ -35,7 +36,7 @@ function Header() {
           className="cursor-pointer mr-auto"
         />
         <form className="flex flex-grow px-6 py-3 ml-4 mr-4 border border-gray-200 rounded-full shadow-lg max-w-2xl items-center">
-        <input ref={searchInputRef}  type="text" className="flex-grow w-full focus:outline-none " />
+        <input ref={searchInputRef} type="text" className="flex-grow w-full focus:outline-none " />
         <XIcon className="h-5 text-gray-500 cursor-pointer transition duration-100 transform hover:scale-125 sm:mr-3" 
         onClick={()=> (searchInputRef.current.value= "")}
         />
@@ -43,7 +44,8 @@ function Header() {
         <SearchIcon className="h-6  text-blue-500 hidden sm:inline-flex " />
         <button hidden type="submit" onClick={search} >Search</button>
         </form>
-        <Avatar className="ml-auto" url="https://i.stack.imgur.com/34AD2.jpg" />
+        {/* <Avatar className="ml-auto"  /> */}
+        <AccountCircleIcon className="h-10 w-10 ml-auto text-blue-600 rounded-full cursor-pointer transition duration-150 transform hover:scale-125 "/>
         </div>
         <HeaderOptions/>
 
