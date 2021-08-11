@@ -1,4 +1,4 @@
-import img from "next/Image";
+
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 function Avatar({ className }) {
   
