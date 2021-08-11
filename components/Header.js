@@ -2,7 +2,6 @@ import Image from "next/Image";
 import { useRouter } from "next/dist/client/router";
 import { useRef } from "react";
 import { XIcon , MicrophoneIcon, SearchIcon} from "@heroicons/react/solid";
-import Avatar from "../components/Avatar";
 import HeaderOptions from "./HeaderOptions";
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 

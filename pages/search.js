@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/Image";
 import Header from "../components/Header";
 import { API_KEY, CONTEXT_KEY } from "../keys";
 import Response from "../Response";

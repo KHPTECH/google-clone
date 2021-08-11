@@ -1,10 +1,9 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Head from "next/head";
-import Avatar from "../components/Avatar";
+
 import { MicrophoneIcon, ViewGridIcon } from "@heroicons/react/solid";
 import Image from "next/Image";
 import { SearchIcon } from "@heroicons/react/outline";
-import { Input } from "postcss";
 import Footer from "../components/Footer";
 import { useRef } from "react";
 import { useRouter } from "next/dist/client/router";
