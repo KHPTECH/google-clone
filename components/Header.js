@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { XIcon , MicrophoneIcon, SearchIcon} from "@heroicons/react/solid";
 import HeaderOptions from "./HeaderOptions";
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import Avatar from './Avatar'
 
 function Header() {
     const router=useRouter();

@@ -28,7 +28,7 @@ function Search({results}) {
 export default Search;
 
 export async function getServerSideProps(context) {
-  const DummyData = true;
+  const DummyData = false;
   const startIndex = context.query.start || "0";
 
   const data = DummyData
