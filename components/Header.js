@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import { useRouter } from "next/dist/client/router";
 import { useRef } from "react";
 import { XIcon , MicrophoneIcon, SearchIcon} from "@heroicons/react/solid";
